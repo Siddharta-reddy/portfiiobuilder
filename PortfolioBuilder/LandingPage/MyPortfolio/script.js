@@ -274,7 +274,7 @@ async function fetchAndRenderData() {
             </h2>
             <div class="skills-grid">
               ${Object.entries(data.skills).map(([cat, arr]) => `
-                <div class="skills-category reveal-element">
+                <div class="skill-category reveal-element">
                   <h3 class="skill-category-title">${cat}</h3>
                   <div class="flex flex-wrap gap-2">
                     ${arr.map(skill => `<span class="skill-tag" >${skill}</span>`).join('')}
