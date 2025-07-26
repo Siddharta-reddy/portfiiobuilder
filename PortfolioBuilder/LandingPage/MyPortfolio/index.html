@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Siddharta Reddy | Programming Analyst" />
+    <meta property="og:description" content="Portfolio website of Siddharta Reddy - Programming Analyst at Cognizant Technology Solutions" />
+    <meta property="og:type" content="website" />
+    <meta property="og:author" content="Siddharta Reddy" />
+    <meta property="og:site_name" content="Siddharta Reddy Portfolio" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Siddharta Reddy | Programming Analyst</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <a href="#hero" class="logo-link text-primary-accent">SR</a>
+          
+          <!-- Desktop Navigation -->
+          <nav class="desktop-nav">
+            <ul class="nav-links">
+              <li><a href="#hero" class="nav-link"><span class="section-number text-primary-accent"></span> Home</a></li>
+              <li><a href="#about" class="nav-link"><span class="section-number text-primary-accent"></span> About</a></li>
+              <li><a href="#projects" class="nav-link"><span class="section-number text-primary-accent"></span> Projects</a></li>
+              <li><a href="#skills" class="nav-link"><span class="section-number text-primary-accent"></span> Skills</a></li>
+              <li><a href="#resume" class="nav-link"><span class="section-number text-primary-accent"></span> Resume</a></li>
+              <li><a href="#contact" class="nav-link"><span class="section-number text-primary-accent"></span> Contact</a></li>
+            </ul>
+          </nav>
+          
+          <div class="right-nav">
+            <!-- Theme Toggle Button -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon-icon">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun-icon hidden">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2"></path>
+                <path d="M12 20v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path>
+                <path d="m17.66 17.66 1.41 1.41"></path>
+                <path d="M2 12h2"></path>
+                <path d="M20 12h2"></path>
+                <path d="m6.34 17.66-1.41 1.41"></path>
+                <path d="m19.07 4.93-1.41 1.41"></path>
+              </svg>
+            </button>
+            
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+                <line x1="4" x2="20" y1="12" y2="12"></line>
+                <line x1="4" x2="20" y1="6" y2="6"></line>
+                <line x1="4" x2="20" y1="18" y2="18"></line>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden">
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-nav" class="mobile-nav hidden">
+      <div class="mobile-nav-container">
+        <a href="#hero" class="mobile-nav-link"><span class="section-number text-primary-accent"></span> Home</a>
+        <a href="#about" class="mobile-nav-link"><span class="section-number text-primary-accent"></span> About</a>
+        <a href="#projects" class="mobile-nav-link"><span class="section-number text-primary-accent"></span> Projects</a>
+        <a href="#skills" class="mobile-nav-link"><span class="section-number text-primary-accent"></span> Skills</a>
+        <a href="#resume" class="mobile-nav-link"><span class="section-number text-primary-accent"></span> Resume</a>
+        <a href="#contact" class="mobile-nav-link"><span class="section-number text-primary-accent"></span> Contact</a>
+      </div>
+    </div>
+    
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero"><div class="container" id="hero-content"></div></section>
+      <div class="scroll-indicator">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14"></path>
+            <path d="m19 12-7 7-7-7"></path>
+          </svg>
+        </div>
+      <!-- About Section -->
+      <section id="about" class="section"><div class="container" id="about-content"></div></section>
+      
+      <!-- Projects Section -->
+      <section id="projects" class="section bg-section"><div class="container" id="projects-content"></div></section>
+      
+      <!-- Skills Section -->
+      <section id="skills" class="section bg-section"><div class="container" id="skills-content"></div></section>
+      
+      <!-- Resume Section -->
+      <section id="resume" class="section bg-section"><div class="container" id="resume-content"></div></section>
+      
+      <!-- Contact Section -->
+      <section id="contact" class="section"><div class="container" id="contact-content"></div></section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer"><div class="container" id="footer-content"></div></footer>
+    
+    <!-- Decorative Elements -->
+    <div class="decorative-line decorative-line-left"></div>
+    <div class="decorative-line decorative-line-right"></div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>

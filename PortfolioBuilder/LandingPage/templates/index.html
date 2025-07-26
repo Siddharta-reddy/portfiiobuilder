@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Portfolio Website</h1>
+        <p>Fill out the form below to generate your personal site.</p>
+
+        <form id="portfolio-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="tagline">Your Tagline (e.g., "Web Developer & Designer"):</label>
+            <input type="text" id="tagline" name="tagline" required>
+
+            <label for="email">Contact Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="bio">Short Bio:</label>
+            <textarea id="bio" name="bio" rows="4" required></textarea>
+
+            <label for="project_title">Main Project Title:</label>
+            <input type="text" id="project_title" name="project_title" required>
+
+            <label for="project_desc">Project Description:</label>
+            <textarea id="project_desc" name="project_desc" rows="3" required></textarea>
+
+            <button type="submit">Generate My Website</button>
+        </form>
+
+        <div id="result" class="result-message" style="display:none;"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Visual Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Your Name</h1>
+    <p class="title">Visual Designer</p>
+    <p class="tagline">Crafting immersive digital experiences</p>
+  </header>
+
+  <!-- Filter Buttons -->
+  <nav class="filter-nav" aria-label="Project Categories">
+    <button data-filter="all" class="active" aria-pressed="true">All</button>
+    <button data-filter="web" aria-pressed="false">Web</button>
+    <button data-filter="design" aria-pressed="false">Design</button>
+    <button data-filter="photography" aria-pressed="false">Photography</button>
+  </nav>
+
+  <!-- Project Grid -->
+  <main>
+    <section class="gallery" aria-live="polite">
+      <!-- Example Card -->
+      <article class="card" data-category="web">
+        <img src="https://via.placeholder.com/400x300" alt="Screenshot of Responsive landing page web project" />
+        <div class="overlay">
+          <h3>Web Project</h3>
+          <p>Responsive landing page</p>
+          <a href="#" class="btn" tabindex="0">View Project</a>
+        </div>
+      </article>
+
+      <article class="card" data-category="design">
+        <img src="https://via.placeholder.com/400x300" alt="UI for a mobile app design project" />
+        <div class="overlay">
+          <h3>Design Project</h3>
+          <p>UI for a mobile app</p>
+          <a href="#" class="btn" tabindex="0">View Project</a>
+        </div>
+      </article>
+
+      <article class="card" data-category="photography">
+        <img src="https://via.placeholder.com/400x300" alt="Sunset in Iceland photography project" />
+        <div class="overlay">
+          <h3>Photography</h3>
+          <p>Sunset in Iceland</p>
+          <a href="#" class="btn" tabindex="0">View Project</a>
+        </div>
+      </article>
+
+      <!-- Add more cards here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

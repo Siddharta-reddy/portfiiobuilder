@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Doe | Creative Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#hero" class="logo">JANE DOE</a>
+            <ul class="nav-links">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Creative Designer &amp; Photographer</h1>
+                <p class="subtitle">I design and photograph beautiful, modern websites and digital products.</p>
+                <a href="#portfolio" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="design">Web Design</button>
+                    <button class="filter-btn" data-filter="photography">Photography</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                </div>
+                <div class="portfolio-grid">
+                    <!-- Portfolio items will be injected dynamically by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container about-content">
+                <img src="assets/images/profile.jpg" alt="Jane Doe" class="profile-pic">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Hello! I'm Jane, a passionate designer and photographer with a love for creating clean, elegant, and effective digital experiences. With over 5 years in the industry, I specialize in user-centric design and compelling visual storytelling.</p>
+                    <p>My goal is to help brands connect with their audience through beautiful design and memorable photography.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Clients Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p class="quote">"Working with Jane was an absolute pleasure. The final result exceeded all our expectations. The attention to detail and creative vision are unparalleled. Highly recommended!"</p>
+                        <p class="author">- John Smith, CEO of TechCorp</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="quote">"Incredible attention to detail and a fantastic eye for design. Jane transformed our brand identity and delivered a product that truly resonates with our audience."</p>
+                        <p class="author">- Sarah Lee, Founder of Creative Co.</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="quote">"The photography work was stunning. Jane has a unique ability to capture the essence of a moment. We couldn't be happier with the results."</p>
+                        <p class="author">- Mark Johnson, Art Director</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>Have a project in mind? I'd love to hear from you.</p>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jane Doe. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Dribbble</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-grid">
+                <img src="" alt="Project Image" class="modal-img">
+                <div class="modal-body">
+                    <h3 class="modal-title"></h3>
+                    <h4>About The Project</h4>
+                    <p class="modal-description"></p>
+                    <h4>Process</h4>
+                    <p class="modal-process"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

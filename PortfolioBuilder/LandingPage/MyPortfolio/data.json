@@ -1,0 +1,110 @@
+{
+  "navigation": [
+    { "id": "hero", "label": "Home" },
+    { "id": "about", "label": "About" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "resume", "label": "Resume" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "hero": {
+    "greeting": "Hi, my name is",
+    "name": "Siddharta Reddy.",
+    "subtitle": "I build things for the web.",
+    "description": "I'm a <span class=\"text-headings\">Programming Analyst Trainee at CTS</span>, focused on building exceptional digital experiences with clean, efficient code.",
+    "buttonText": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "Hello! I'm Siddharta Reddy, a passionate software developer currently working as a <span class=\"text-headings\">Programming Analyst Trainee at Cognizant Technology Solutions (CTS)</span>. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.",
+      "My interest in web development started back in college when I was introduced to HTML & CSS. Fast-forward to today, I've had the privilege of working on diverse projects that have helped me build a strong foundation in both front-end and back-end technologies.",
+      "At Cognizant, I'm continuously developing my skills by working on enterprise-level applications, collaborating with cross-functional teams, and keeping up with the latest industry trends and best practices.",
+      "Here are a few technologies I've been working with recently:"
+    ],
+    "skills": [
+      "JavaScript (ES6+)",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Java",
+      "SQL"
+    ]
+  },
+  "projects": [
+    {
+      "title": "E-Commerce Platform",
+      "overline": "Featured Project",
+      "description": "A full-featured e-commerce platform with product catalog, shopping cart, user authentication, and payment integration using Stripe.",
+      "tech": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "title": "Task Management App",
+      "overline": "Featured Project",
+      "description": "A Kanban-style task management application with drag-and-drop functionality, task prioritization, and team collaboration features.",
+      "tech": ["Vue.js", "Firebase", "Tailwind CSS", "Drag & Drop API"],
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "title": "Weather Dashboard",
+      "overline": "Featured Project",
+      "description": "A weather application that displays current conditions and forecasts for any location using geolocation and weather API integration.",
+      "tech": ["JavaScript", "HTML5", "CSS3", "OpenWeather API", "Geolocation API"],
+      "github": "#",
+      "demo": "#"
+    }
+  ],
+  "skills": {
+    "Languages": ["JavaScript", "TypeScript", "Java", "Python", "HTML/CSS", "SQL"],
+    "Frameworks & Libraries": ["React", "Angular", "Node.js", "Express", "Spring Boot", "Tailwind CSS"],
+    "Tools & Platforms": ["Git", "Docker", "Jenkins", "VS Code", "Postman", "Jira"],
+    "Other Skills": ["RESTful APIs", "GraphQL", "Agile/Scrum", "Testing", "CI/CD", "Responsive Design"]
+  },
+  "resume": {
+    "work": [
+      {
+        "title": "Programming Analyst Trainee",
+        "company": "Cognizant Technology Solutions (CTS)",
+        "date": "January 2023 - Present",
+        "details": [
+          "Develop and maintain web applications using modern JavaScript frameworks and libraries",
+          "Collaborate with cross-functional teams to identify and resolve complex technical issues",
+          "Participate in code reviews and implement best practices for software development",
+          "Assist in the design and implementation of new features and functionality"
+        ]
+      },
+      {
+        "title": "Web Development Intern",
+        "company": "TechStart Solutions",
+        "date": "May 2022 - August 2022",
+        "details": [
+          "Assisted in building responsive web applications using React.js and Node.js",
+          "Implemented UI components according to design specifications",
+          "Participated in daily stand-up meetings and sprint planning",
+          "Contributed to codebase maintenance and bug fixes"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Technology in Computer Science",
+        "school": "Techno University",
+        "date": "2018 - 2022",
+        "description": "Graduated with First Class Honors. Specialized in Web Technologies and Software Engineering."
+      }
+    ]
+  },
+  "contact": {
+    "email": "siddharta.reddy@example.com",
+    "github": "https://github.com/siddhartha-reddy",
+    "linkedin": "https://linkedin.com/in/siddhartha-reddy",
+    "location": "Hyderabad, India",
+    "availability": "I'm currently employed at Cognizant Technology Solutions but open to discussing new opportunities."
+  },
+  "footer": {
+    "designedBy": "Siddharta Reddy"
+  }
+}
